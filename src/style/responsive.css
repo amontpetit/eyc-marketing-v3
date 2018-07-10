@@ -1,0 +1,400 @@
+/* For Very Large Screens */
+@media only screen and (min-width:1600px)
+{
+    
+}
+/* For Large Screens */
+@media only screen and (min-width: 1440px)
+{
+    .container{
+        padding:0;
+    }
+}
+
+/* For Standard Desktop Screens */
+@media only screen and (min-width: 1200px)
+{
+
+}
+
+@media only screen and (max-width:1199px)
+{
+    .home-what-do-item{
+        width:100%;
+        padding:0;
+    }
+    .card-newsblog{
+        height:344px;
+    }
+    .press-kit-press-release{
+        height:248px;
+    }
+}
+
+@media only screen and (max-width:1099px)
+{
+    .card-newsblog{
+        height:360px;
+    }
+    .press-kit-press-release{
+        height:280px;
+    }
+}
+
+/* For iPad Horizontal */
+@media only screen and (max-width: 1024px)
+{
+    footer .mosaic-rule{
+        margin-top:32px;
+    }
+    #about-story{
+        width:90%;
+        margin-left:5%;
+    }
+    .invest-press-release{
+        width:80%;
+    }
+    #invest-kit-image{
+        height:200px;
+        margin-top:32px;
+    }
+    .news-blog-post{
+        width:50%;
+    }
+    .card-newsblog{
+        height:280px;
+    }
+    #products h2.title{
+        text-align:center;
+    }
+    #products-overview-intro,
+    #products-overview-features{
+        width:80%;
+        margin-left:10%;
+        padding:0;
+    }
+    #press-kit-assets-image img{
+        height:200px;
+        margin-top:16px;
+    }
+    
+}
+
+/* 900px */
+@media only screen and (max-width: 900px)
+{
+    h2.title{
+        text-align:center;
+    }
+    #hero,
+    #hero-half{
+        height:auto;
+    }
+    #contactform-intro,
+    #contactform-form-wrapper{
+        width:100%;
+    }
+    #contactform-intro-paragraph{
+        width:50%;
+        padding-right:16px;
+    }
+    #contactform-intro-lists{
+        width:50%;
+        padding-left:16px;
+    }
+    #contactform-intro-lists .nobullets{
+        margin-bottom:0;
+    }
+    #contactform-intro-lists .sociallistsmall{
+        margin-top:0;
+    }
+    #contactform-form-wrapper{
+        padding-left:0;
+    }
+    #home-hero-headline,
+    #home-hero-subhead{
+        width:100%;
+    }
+    #home-hero-headline #hero-headline{
+        padding-top:0;
+        margin-bottom:0;
+    }
+    #home-who-is-video,
+    #home-who-is-content,
+    #home-what-do-content,
+    #home-what-do-video{
+        width:100%;
+    }
+    #home-who-is-video,
+    #home-what-do-video{
+        margin-top:32px;
+    }
+    .home-what-do-item{
+        width:33%;
+        padding:0 16px;
+    }
+    .home-news-blog{
+        width:100%;
+    }
+    #about-mission,
+    #about-vision,
+    #about-story{
+        width:100%;
+        margin:0;
+    }
+    #invest-overview,
+    #invest-stockticker,
+    .invest-press-release,
+    .invest-news-blog{
+        width:100%;
+    }
+    #invest-stockticker{
+        padding:0;
+    }
+    .card-newsblog{
+        height:312px;
+    }
+    #products-overview-intro,
+    #products-overview-features{
+        width:90%;
+        margin-left:5%;
+        padding:0;
+    }
+    #press-kit-overview-left,
+    #press-kit-overview-right{
+        width:100%;
+    }
+    .press-kit-awards{
+        width:100%;
+        padding:0;
+        margin-bottom:32px;
+    }
+    .press-kit-awards:last-of-type{
+        margin-bottom:0;
+    }
+    .press-awards-image{
+        width:33%;
+    }
+    .press-awards-content{
+        width:67%;
+        padding-left:32px;
+    }
+    .press-kit-press-release{
+        width:50%;
+        height:216px;
+    }
+    .press-kit-press-release{
+        height:240px;
+    }
+}
+
+/* 899px Size limit for header navigation */
+@media only screen and (max-width:899px)
+{
+    #header-navigation{
+        display:none;
+    }
+    #header-navigation-small{
+        display:block;
+    }
+    
+}
+
+/* For iPad Vertical */
+@media only screen and (max-width: 768px)
+{
+    .footer-column{
+        width:33%;
+        text-align:center;
+    }
+    #footer-logo{
+        text-align: center;
+    }
+    #footer-nameplate,
+    #footer-contact{
+        width:50%;
+        margin-left:25%;
+    }
+    .home-what-do-item{
+        width:100%;
+        padding:0;
+    }
+    #about-story-image{
+        width:320px;
+        height:320px;
+        border-radius:160px;
+    }
+    #invest-kit-description,
+    #invest-kit-download{
+        width:100%;
+        padding:0;
+    }
+    #invest-kit-image{
+        width:40%;
+    }
+    #invest-kit-meta{
+        width:60%;
+        padding-top:96px;
+    }
+    .news-blog-post{
+        width:80%;
+        margin-left:10%;
+    }
+    .card-newsblog{
+        height:248px;
+    }
+    #products-overview-intro,
+    #products-overview-features{
+        width:100%;
+        margin-left:0%;
+        padding:0;
+    }
+    #press-kit-assets-image,
+    #press-kit-assets-description{
+        width:100%;
+        padding:0;
+    }
+    #press-kit-assets-image img{
+        width:40%;
+        float:left;
+    }
+    #press-kit-assets-meta{
+        width:60%;
+        padding-top:64px;
+    }
+    .press-kit-press-release{
+        width:100%;
+        height:auto;
+    }
+}
+
+@media only screen and (max-width:728px)
+{
+    .cta::before{
+        max-width:calc(100% - 128px);
+    }
+}
+
+@media only screen and (max-width:699px)
+{
+    .news-blog-post{
+        width:90%;
+        margin-left:5%;
+    }
+    .press-awards-image{
+        height:200px;
+    }
+}
+
+/* For Small Screens */
+@media only screen and (max-width: 600px)
+{
+    #header-navigation-list-small{
+        width:calc(100% - 64px);
+    }
+    #hero{
+        padding:0 16px;
+    }
+    #hero-headline{
+        font-size:72px;
+    }
+    #hero-subhead{
+        font-size:36px;
+    }
+    .news-blog-post{
+        width:100%;
+        margin:0;
+    }
+    .card-newsblog{
+        height:auto;
+        padding-bottom:64px;
+    }
+    .card-newsblog .blog-excerpt{
+        padding:0;
+    }
+    .press-awards-content h4{
+        margin-top:0;
+    }
+}
+
+/* For Mobile */
+@media only screen and (max-width: 480px)
+{
+    .footer-column{
+        width:100%;
+    }
+    .footer-column:not(#footer-nameplate, #footer-contact),
+    #footer-contact h4{
+        display:none;
+    }
+    #contactform-intro-paragraph{
+        width:100%;
+        padding-right:0;
+    }
+    #contactform-intro-lists{
+        width:100%;
+        padding-left:0;
+        text-align: center;
+    }
+    #contactform-intro-lists .sociallistsmall li{
+        margin:20px 10px;
+    }
+    .home-what-do-item{
+        display:none;
+    }
+    #about-story-image{
+        width:240px;
+        height:240px;
+        border-radius:120px;
+    }
+    #invest-kit-image{
+        width:100%;
+    }
+    #invest-kit-meta{
+        width:100%;
+        padding-top:16px;
+    }
+    #press-kit-overview-left,
+    #press-kit-overview-right{
+        padding:0;
+    }
+    #press-kit-assets-image,
+    #press-kit-assets-meta{
+        width:100%;
+    }
+    #press-kit-assets-image{
+        text-align: center;
+    }
+    #press-kit-assets-image img{
+        width:200px;
+        height:200px;
+        margin:0 auto;
+        float:none;
+    }
+    #press-kit-assets-meta{
+        padding-top:16px;
+    }
+    .press-awards-image,
+    .press-awards-content{
+        width:100%;
+    }
+    .press-awards-image{
+        margin-bottom:32px;
+    }
+    .press-kit-press-release{
+        width:100%;
+        padding:0;
+    }
+}
+
+/* For iOS */
+@media only screen and (max-width: 375px)
+{
+
+}
+
+/* For Android */
+@media only screen and (max-width: 480px)
+{
+
+}

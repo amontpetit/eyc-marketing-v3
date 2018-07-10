@@ -1,0 +1,329 @@
+/****************************************************************************************************/
+/*                                                                                                  */
+/*  binovicomponents.css                                                                            */
+/*  Common HTML and CSS components for Eyecarrot and Binovi related web assets                      */
+/*                                                                                                  */
+/*  Last Updated: May 17 2018                                                                       */
+/*                                                                                                  */
+/****************************************************************************************************/
+
+/* Fade-in Mirage*/
+.mirage > .row{
+    opacity:0;
+    transition: all 1s ease;
+}
+
+/* Mosaic */
+section.mosaic{
+    padding:25px 0;
+}
+.mosaic{
+    background-image:url(../assets/EYCv2_Background_Shaded_2000.png);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 40px 0 rgba(0,0,0,0.75);
+}
+.mosaic-right{
+    background-image:url(../assets/EYCv2_Background_Shaded_2000_blurRight.png);
+}
+.mosaic-left{
+    background-image:url(../assets/EYCv2_Background_Shaded_2000_blurLeft.png);
+}
+.highlight-row{
+    position:relative;
+    background-color:var(--eyc-white);
+    color:var(--eyc-darkgrey);
+    padding-top:30px;
+    box-shadow:0 0 40px 0 rgba(0,0,0,0.25);
+}
+hr.mosaic{
+    width:100%;
+    height:4px;
+    border:none !important;
+    box-shadow: none !important;
+}
+
+/*  Generic Structure Classes   */
+.fit{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+.fill{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.left{
+    text-align:left !important;
+}
+.center{
+    text-align:center !important;
+}
+.right{
+    text-align:right !important;
+}
+.padded{
+    padding:25px;
+}
+.nopad{
+    padding:0 !important;
+}
+.nopadT{
+    padding-top:0 !important;
+}
+.nopadR{
+    padding-right: 0 !important;
+}
+.nopadB{
+    padding-bottom:0 !important;
+}
+.nopadL{
+    padding-left:0 !important;
+}
+.white{
+    color:var(--eyc-white) !important;
+}
+.spancols2{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;
+}
+.spancols3{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;
+}
+.spancols4{
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;
+}
+.block{
+    display:block !important;
+}
+.visible{
+    opacity:1 !important;
+}
+
+/*Buttons*/
+.btn{
+    background-color:var(--eyc-lightgrey);
+    height:40px;
+    width:auto;
+    min-width:40px;
+    padding:10px 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight:400;
+    border-radius: 3px;
+    color:var(--eyc-darkgrey);
+    font-size:15px;
+    text-align:center;
+    letter-spacing:1px;
+    background-image:none;
+    border:0;
+    box-shadow:none;
+    text-shadow:none;
+    margin:0 auto;
+    -webkit-transition: 200ms;
+    -moz-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
+    transition-duration: 200ms;
+    line-height: initial;
+}
+.btn:hover{
+    box-shadow: 0 10px 10px -5px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0 10px 10px -5px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 10px 10px -5px rgba(0,0,0,0.25);
+    transform: translateY(-2px);
+}
+.btn-default{
+    background-color:var(--eyc-teal75);
+    color:var(--eyc-white);
+}
+.btn-default:hover{
+    background-color:var(--eyc-teal);
+    color:var(--eyc-white);
+}
+.btn-default:active{
+    background-color:var(--eyc-navy);
+}
+.btn-primary{
+    background-color:var(--eyc-white);
+    color:var(--eyc-midgrey);
+}
+.btn-primary:hover{
+    background-color:var(--eyc-white);
+    color:var(--eyc-black);
+}
+.btn-secondary{
+    background-color:var(--eyc-navy75);
+}
+.btn-secondary:hover{
+    background-color:var(--eyc-navy);
+    color:var(--eyc-white);
+}
+.btn-success{
+    background-color:var(--eyc-green75);
+}
+.btn-success:hover{
+    background-color:var(--eyc-green);
+}
+.btn-info{
+    background-color:var(--eyc-purple75);
+}
+.btn-info:hover{
+    background-color:var(--eyc-purple);
+}
+.btn-warning{
+    background-color:var(--eyc-orange75);
+}
+.btn-warning:hover{
+    background-color:var(--eyc-orange);
+}
+.btn-danger{
+    background-color:var(--eyc-red75);
+}
+.btn-danger:hover{
+    background-color:var(--eyc-red);
+}
+.btn-link{
+    background-color:var(--eyc-white);
+    border: 1px solid var(--eyc-darkgrey);
+    color:var(--eyc-darkgrey);
+}
+.btn-link:hover{
+    background-color:var(--eyc-white);
+    border: 1px solid var(--eyc-black);
+    color:var(--eyc-black);
+    text-decoration: none;
+}
+.btn-nav-buttons{
+    height:40px;
+    padding:10px;
+    margin-top:20px;
+    margin-left:10px;
+}
+.btn-binovi{
+    background-image: url(https://www.eyecarrot.com/assets/EYCv2_Background_Shaded_2000.png);
+    background-position: center center;
+    height:50px;
+    padding:5px;
+    min-width:600px;
+    box-shadow:0 5px 20px -5px rgba(0,0,0,0.25);
+}
+.btn-binovi span{
+    display: block;
+    background-color:var(--eyc-white);
+    padding:15px 25px;
+    font-size:18px;
+    line-height:10px;
+    text-transform: none;
+    font-weight: 640;
+}
+
+/* Sliding Chevron */
+/* Applied directly to a <i class="fa fa-angle-down"></i> element */
+#bt-lookdown{
+    position:relative;
+    margin:0 auto;
+    top:0;
+    left:calc(50% - 25px);
+    font-size:80px;
+    color:var(--eyc-teal);;
+    opacity:0;
+    animation-delay: 6s;
+    animation-name:slidedown;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}  
+@-webkit-keyframes slidedown{
+   0%   {top:0; opacity:0;}
+   10%  {top:0; opacity:0.25;}
+   90%  {top:50px; opacity:0.5;}
+   100% {top:50px; opacity:0;}
+}
+@-moz-keyframes slidedown{
+   0%   {top:0; opacity:0;}
+   10%  {top:0; opacity:0.25;}
+   90%  {top:50px; opacity:0.5;}
+   100% {top:50px; opacity:0;}
+}
+@-o-keyframes slidedown{
+   0%   {top:0; opacity:0;}
+   10%  {top:0; opacity:0.25;}
+   90%  {top:50px; opacity:0.5;}
+   100% {top:50px; opacity:0;}
+}
+@keyframes slidedown{
+   0%   {top:0; opacity:0;}
+   10%  {top:0; opacity:0.25;}
+   90%  {top:50px; opacity:0.5;}
+   100% {top:50px; opacity:0;}
+}
+
+/* Social Media Icons */
+.sociallistsmall{
+    display:inline-flex;
+    list-style: none;
+    margin-left:0;
+    padding-left:0;
+    font-size:15px;
+}
+.sociallistsmall .social{
+    width:30px;
+    height:30px;
+    border-radius: 15px;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 30px;
+    padding:0;
+    background-color:var(--eyc-white);
+    color:var(--eyc-darkgrey);
+    -webkit-transition-duration:200ms;
+    -moz-transition-duration:200ms;
+    -o-transition-duration:200ms;
+    transition-duration:200ms;
+}
+.sociallistsmall li{
+    margin:20px 10px 20px 0;
+}
+.sociallistsmall a:hover{
+    color:var(--eyc-white);
+}
+.sociallistsmall .social:hover{
+    color:var(--eyc-white) !important;
+    box-shadow: 0 10px 10px -5px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0 10px 10px -5px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 10px 10px -5px rgba(0,0,0,0.25); 
+}
+.sociallistsmall .social:hover .fa{
+    color:var(--eyc-white) !important;
+}
+.twitter:hover{
+    background-color:#1DA1F2 !important;
+    color:var(--eyc-white) !important;
+}
+.linkedin:hover{
+    background-color:#0077b5 !important;
+    color:var(--eyc-white) !important;
+}
+.facebook:hover{
+    background-color:#3b5998 !important;
+    color:var(--eyc-white) !important;
+}
+.youtube:hover{
+    background-color:#cd201f !important;
+    color:var(--eyc-white) !important;
+}

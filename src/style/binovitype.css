@@ -1,0 +1,199 @@
+/****************************************************************************************************/
+/*                                                                                                  */
+/*  binovitype.css                                                                                  */
+/*  Contains typographic rules for Eyecarrot and Binovi related web materials.                      */
+/*                                                                                                  */
+/*  Last Updated: May 7 2018                                                                        */
+/*                                                                                                  */
+/****************************************************************************************************/
+
+*{
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:var(--eyc-darkgrey);
+    font-weight:300;
+    line-height: 1.75em;
+    font-size:18px;
+}
+
+/* Headings */
+h1.maintitle{
+    font-size:72px;
+    font-weight:300;
+}
+h2{
+    font-size:18px;
+    font-weight:600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+h2.title{
+    font-size:48px;
+    font-weight:300;
+    text-transform: none;
+    letter-spacing: normal;
+}
+h2.smalltitle{
+    font-weight:300;
+	font-size:30px;
+    text-transform: none;
+    letter-spacing: normal;
+    margin-bottom:20px;
+}
+h2.blogtitle{
+    margin-bottom:25px;
+}
+h3{
+    font-size:15px;
+    font-weight:600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+h4{
+    font-size:18px;
+    font-weight:600;
+    letter-spacing: 0.5px;
+    margin-bottom:0;
+}
+h4.footer-title{
+    font-size:12px;
+    font-weight:600;
+    text-transform: uppercase;
+    letter-spacing:1px;
+}
+
+/* Body Copy */
+p{
+    font-size:18px;
+    line-height:1.75em;
+    font-weight:300;
+}
+p.tiny{
+    font-size:10px;
+    font-weight:300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#888;
+}
+p.big{
+    font-size:24px;
+    margin-bottom:1em;
+}
+
+/* Links */
+p a{
+    color:#000;
+    background-color:rgba(0,154,199,0.1);
+}
+p a:hover{
+    color:#009ac7;
+    background-color:#fff;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+    -webkit-transition-duration:200ms;
+    -moz-transition-duration:200ms;
+    -o-transition-duration:200ms;
+    transition-duration:200ms;
+}
+a:hover,
+a:focus{
+    color:#009ac7;
+    text-decoration: none;
+}
+a:visited,
+a:active{
+    color:inherit;
+    text-decoration: none;
+}
+
+/* Inline Styles */
+b,
+strong {
+	font-weight: bold;
+}
+dfn {
+	font-style: italic;
+}
+mark {
+	background: #ff0;
+	color: #000;
+}
+sub,
+sup {
+	font-size: 50%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.75em;
+}
+sub {
+	bottom: -0.25em;
+}
+.smallcaps,
+.sc{
+    font-size:0.8em;
+    text-transform: uppercase;
+}
+.small{
+	font-size:15px;
+    line-height:100%;
+}
+.fineprint{
+	font-weight:300;
+	font-size:12px;
+    line-height: 1.5em;
+}
+.left{
+    text-align:left !important;
+}
+.center{
+    text-align:center !important;
+}
+.right{
+    text-align:right !important;
+}
+
+/* Block Quote */
+blockquote{
+    width:80%;
+    margin:50px auto;
+    padding:0;
+    border:0;
+    border-top:15px solid #efefef;
+    border-bottom:15px solid #efefef;
+}
+blockquote p{
+    text-align:center;
+    font-size:24px;
+    font-style: italic;
+}
+blockquote footer{
+    position: static;
+    width:auto;
+    min-height:0;
+    font-size:15px;
+    font-weight:600;
+    text-align:center;
+    line-height:24px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    font-style:normal;
+    background: none;
+    box-shadow: none;
+    padding-top:0;
+    padding-bottom:25px;
+}
+ul,
+ol{
+    font-size:18px;
+    line-height:1.75em;
+    font-weight:300;
+}
+
+.nobullets{
+    list-style: none;
+    padding-left: 0;
+}

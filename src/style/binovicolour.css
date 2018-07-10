@@ -1,0 +1,112 @@
+/****************************************************************************************************/
+/*                                                                                                  */
+/*  binovicolour.css                                                                                */
+/*  Colour and styling information related to backgrounds and other elements                        */
+/*                                                                                                  */
+/*  Last Updated: May 7 2018                                                                        */
+/*                                                                                                  */
+/****************************************************************************************************/
+
+/* Declare the variables */
+:root {
+    --eyc-black:rgba(0,0,0,1);
+    --eyc-verydarkgrey: rgba(48,48,48,1);       /* #303030 */
+    --eyc-darkgrey: rgba(72,72,72,1);           /* #484848 */
+    --eyc-midgrey: rgba(136,136,136,1);         /* #888888 */
+    --eyc-lightgrey: rgba(239,239,239,1);       /* #efefef */
+    --eyc-verylightgrey: rgba(248,248,248,1);   /* #f8f8f8 */
+    --eyc-white: rgba(255,255,255,1);           /* #ffffff */
+    
+    --eyc-orange: rgba(247,146,32,1);           /* #f79220 */
+    --eyc-orange75: rgba(247,146,32,0.75);
+    --eyc-orange50: rgba(247,146,32,0.50);
+    --eyc-orange25: rgba(247,146,32,0.25);
+    
+    --eyc-lime: rgba(141,198,64,1);             /* #3dc640 */
+    --eyc-lime75: rgba(141,198,64,0.75);
+    --eyc-lime50: rgba(141,198,64,0.50);
+    --eyc-lime25: rgba(141,198,64,0.25);
+    
+    --eyc-red: rgba(227,27,35,1);               /* #e31b23 */
+    --eyc-red75: rgba(227,27,35,0.75);
+    --eyc-red50: rgba(227,27,35,0.50);
+    --eyc-red25: rgba(227,27,35,0.25);
+    
+    --eyc-fuchshia: rgba(238,43,116,1);         /* #ee2b74 */
+    --eyc-fuchshia75: rgba(238,43,116,0.75);
+    --eyc-fuchshia50: rgba(238,43,116,0.50);
+    --eyc-fuchshia25: rgba(238,43,116,0.25);
+    
+    --eyc-purple: rgba(85,41,136,1);            /* #552988 */
+    --eyc-purple75: rgba(85,41,136,0.75);
+    --eyc-purple50: rgba(85,41,136,0.50);
+    --eyc-purple25: rgba(85,41,136,0.25);
+    
+    --eyc-navy: rgba(0,75,141,1);               /* #004b8d */
+    --eyc-navy75: rgba(0,75,141,0.75);
+    --eyc-navy50: rgba(0,75,141,0.50);
+    --eyc-navy25: rgba(0,75,141,0.25);
+    
+    --eyc-teal: rgba(0,154,199,1);              /* #009ac7 */
+    --eyc-teal75: rgba(0,154,199,0.75);
+    --eyc-teal50: rgba(0,154,199,0.50);
+    --eyc-teal25: rgba(0,154,199,0.25);
+    
+    --eyc-green: rgba(0,169,79,1);              /* #09a94f */
+    --eyc-green75: rgba(0,169,79,0.75);
+    --eyc-green50: rgba(0,169,79,0.50);
+    --eyc-green25: rgba(0,169,79,0.25);
+    
+    --eyc-yellow: rgba(255,221,0,1);            /* #ffdd00 */
+    --eyc-yellow75: rgba(255,221,0,0.75);
+    --eyc-yellow50: rgba(255,221,0,0.50);
+    --eyc-yellow25: rgba(255,221,0,0.25);
+}
+
+/* Invoke like so */
+/*
+.my-class{
+    my-rule: var(variablename);
+}
+*/
+
+/* Gradients - Use only one, or modify names to specify tone */
+/* Light Gradients from White to Light Grey */
+.grad-down{
+    width:100%;
+    height:auto;
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: var(--eyc-white);
+    background: -webkit-linear-gradient(var(--eyc-lightgrey), var(--eyc-white));
+    background: -o-linear-gradient(var(--eyc-lightgrey), var(--eyc-white));
+    background: -moz-linear-gradient(var(--eyc-lightgrey), var(--eyc-white));
+    background: linear-gradient(var(--eyc-lightgrey), var(--eyc-white));
+}
+.grad-up{
+    width:100%;
+    height:auto;
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: var(--eyc-white);
+    background: -webkit-linear-gradient(var(--eyc-white), var(--eyc-lightgrey));
+    background: -o-linear-gradient(var(--eyc-white), var(--eyc-lightgrey));
+    background: -moz-linear-gradient(var(--eyc-white), var(--eyc-lightgrey));
+    background: linear-gradient(var(--eyc-white), var(--eyc-lightgrey));
+}
+
+/*  Dark Gradients from Dark Grey to Very Dark Grey */
+.grad-down{
+    background-color: var(--eyc-darkgrey);
+    background: -webkit-linear-gradient(var(--eyc-verydarkgrey), var(--eyc-darkgrey));
+    background: -o-linear-gradient(var(--eyc-verydarkgrey), var(--eyc-darkgrey));
+    background: -moz-linear-gradient(var(--eyc-verydarkgrey), var(--eyc-darkgrey));
+    background: linear-gradient(var(--eyc-verydarkgrey), var(--eyc-darkgrey));
+}
+.grad-up{
+    background-color: var(--eyc-darkgrey);
+    background: -webkit-linear-gradient(var(--eyc-darkgrey), var(--eyc-verydarkgrey));
+    background: -o-linear-gradient(var(--eyc-darkgrey), var(--eyc-verydarkgrey));
+    background: -moz-linear-gradient(var(--eyc-darkgrey), var(--eyc-verydarkgrey));
+    background: linear-gradient(var(--eyc-darkgrey), var(--eyc-verydarkgrey));
+}
